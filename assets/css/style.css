@@ -2,3 +2,39 @@
     font-family: 'Avenir', sans-serif;
     background-color: #ddd0c8;
 }
+
+header {
+    padding: 10px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #323232;
+    display: inline-block;
+}
+
+nav {
+    padding-top: 40px;
+    margin-right: 20px;
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+h2 {
+    color: #323232;
+}
+
+p {
+    color: #99775c;
+}
