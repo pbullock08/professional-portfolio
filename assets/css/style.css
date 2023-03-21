@@ -1,6 +1,9 @@
 * {
     font-family: 'Avenir', sans-serif;
-    background-color: #ddd0c8;
+}
+
+body {
+    background-color: #ffffff;
 }
 
 header {
@@ -15,7 +18,7 @@ header {
 }
 
 h1 {
-    color: #323232;
+    color: #3b1e08;
     display: inline-block;
 }
 
@@ -26,15 +29,42 @@ nav {
     list-style-type: none;
 }
 
-ul li {
+li {
     display: inline-block;
     margin-left: 25px;
+    color: #652a0e;
+}
+
+a {
+    color: #652a0e;
+    text-decoration: none;
+}
+
+main {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.border{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
 }
 
 h2 {
-    color: #323232;
+    color: #532915;
 }
 
 p {
-    color: #99775c;
+    color: #652a0e;
+}
+
+#about-me h2, #professional-projects h2, #contact-me h2 {
+    float: left;
+}
+
+#contact-me li {
+    text-decoration: underline;
 }
