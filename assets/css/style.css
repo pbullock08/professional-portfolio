@@ -40,11 +40,6 @@ a {
     text-decoration: none;
 }
 
-main {
-    display: inline-block;
-    flex-wrap: wrap;
-}
-
 .border{
     height: 100px;
     width: 100%;
