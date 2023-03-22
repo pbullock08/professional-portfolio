@@ -1,9 +1,6 @@
 /*styling for whole webpage*/
 * {
     font-family: 'Avenir', sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 body {
@@ -11,14 +8,15 @@ body {
 }
 
 /*styling for header of webpage*/
+
 header {
     height: 150px;
-    padding-bottom: 15px;
-    margin-left: 40px;
-    margin-bottom: 0px;
+    margin: 0px;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/ep_naturalwhite.png)
 }
 
 .avatar {
+    display: inline-block;
     vertical-align: middle;
     width: 150px;
     height: 150px;
@@ -29,14 +27,14 @@ header {
 h1 {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 20px;
+    padding-left: 15px;
     margin: 0px;
+    font-size: 1.8em;
     color: #3b1e08;
 }
 
 nav {
     float: right;
-    margin: 0px;
 }
 
 nav ul {
@@ -46,22 +44,35 @@ nav ul {
     align-content: center;
     list-style-type: none;
     height: 150px;
+    padding: 0px;
+    padding-right: 15px;
     margin: 0px;
 }
 
-a {
+nav li {
+    margin: 0px;
+    text-align: right;
+}
+
+nav a {
     color: #532915;
     text-decoration: none;
+    margin: 0px;
+    padding-left: 20px;
 }
 
 /*styiling for main section of webpage*/
+main {
+    margin: 25px;
+}
+
 h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: flex-start;
     float: left;
-    padding-right: 20px;
+    padding-right: 50px;
     margin: 0px;
     width: 150px;
     color: #532915;
@@ -71,6 +82,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
+    padding-right: 150px;
     color: #652a0e;
 }
 
@@ -86,12 +98,17 @@ h2 {
     list-style-type: none;
     margin: 0px;
     height: 33px;
+    padding-right: 150px;
     padding-left: 0px;
     text-decoration: underline;
 }
 
-li {
+#contact-me li {
    margin: 0px;
-    margin-right: 25px;
-    color: #652a0e; 
+   color: #652a0e; 
+}
+
+#contact-me a {
+    padding: 0px;
+    color: #532915;
 }
