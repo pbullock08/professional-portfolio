@@ -85,10 +85,53 @@ h2 {
     padding-right: 150px;
     color: #652a0e;
 }
-
-#professional-projects a{
+ 
+#professional-projects {
+    padding-right: 150px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#professional-projects a {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.large-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    object-fit: cover;
+    padding-left: 0px;
+    padding-bottom: 15px;
+}
+
+.small-images {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+}
+
+.small-images a {
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.small-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    padding-bottom: 15px;
 }
 
 #contact-me ul {
