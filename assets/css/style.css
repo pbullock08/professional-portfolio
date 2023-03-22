@@ -1,13 +1,18 @@
+/*styling for whole webpage*/
 * {
     font-family: 'Avenir', sans-serif;
+    margin: 5px;
 }
 
 body {
     background-color: #ffffff;
 }
 
+/*styling for header of webpage*/
 header {
-    padding: 10px;
+    height: 150px;
+    padding-bottom: 15px;
+    margin: 0px;
 }
 
 .avatar {
@@ -15,23 +20,30 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    padding-right: 10px;
+    margin: 0px;
 }
 
 h1 {
-    color: #3b1e08;
     display: inline-block;
+    margin: 0px;
+    color: #3b1e08;
 }
 
 nav {
-    padding-top: 40px;
-    margin-right: 20px;
     float: right;
-    list-style-type: none;
+    margin: 0px;
 }
 
-li {
-    display: inline-block;
-    margin-left: 25px;
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    list-style-type: none;
+    height: 150px;
+    margin: 0px;
+    text-align: right;
     color: #652a0e;
 }
 
@@ -40,26 +52,42 @@ a {
     text-decoration: none;
 }
 
-.border{
-    height: 100px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
-
+/*styiling for main section of webpage*/
 h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    float: left;
+    padding-right: 20px;
+    margin: 0px;
+    width: 150px;
     color: #532915;
 }
 
-p {
+#about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
     color: #652a0e;
 }
 
-#about-me h2, #professional-projects h2, #contact-me h2 {
-    float: left;
+#professional-projects a{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#contact-me li {
+#contact-me ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    height: 33px;
+    padding-left: 0px;
     text-decoration: underline;
+}
+
+li {
+    color: #652a0e; 
 }
