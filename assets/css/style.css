@@ -1,7 +1,9 @@
 /*styling for whole webpage*/
 * {
     font-family: 'Avenir', sans-serif;
-    margin: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 body {
@@ -12,7 +14,8 @@ body {
 header {
     height: 150px;
     padding-bottom: 15px;
-    margin: 0px;
+    margin-left: 40px;
+    margin-bottom: 0px;
 }
 
 .avatar {
@@ -20,12 +23,13 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    padding-right: 10px;
     margin: 0px;
 }
 
 h1 {
     display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
     margin: 0px;
     color: #3b1e08;
 }
@@ -43,12 +47,10 @@ nav ul {
     list-style-type: none;
     height: 150px;
     margin: 0px;
-    text-align: right;
-    color: #652a0e;
 }
 
 a {
-    color: #652a0e;
+    color: #532915;
     text-decoration: none;
 }
 
@@ -56,7 +58,7 @@ a {
 h2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-start;
     float: left;
     padding-right: 20px;
@@ -79,8 +81,8 @@ h2 {
 
 #contact-me ul {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     margin: 0px;
     height: 33px;
@@ -89,5 +91,7 @@ h2 {
 }
 
 li {
+   margin: 0px;
+    margin-right: 25px;
     color: #652a0e; 
 }
