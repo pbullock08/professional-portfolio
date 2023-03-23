@@ -75,6 +75,7 @@ h2 {
     padding-right: 50px;
     margin: 0px;
     width: 150px;
+    text-align: right;
     color: #532915;
 }
 
@@ -85,51 +86,38 @@ h2 {
     padding-right: 150px;
     color: #652a0e;
 }
- 
-#professional-projects {
-    padding-right: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
 
 #professional-projects a {
     display: flex;
     flex-wrap: wrap;
 }
 
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 150px;
+}
+
+images a {
+    
+}
+
 .large-image {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
+    width: 100%;
     height: auto;
     object-fit: cover;
-    padding-left: 0px;
     padding-bottom: 15px;
 }
 
-.small-images {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 200px;
-}
-
-.small-images a {
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 200px;
-}
 
 .small-image {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 350px;
-    height: 150px;
+    width: 50%;
     object-fit: cover;
     padding-bottom: 15px;
 }
