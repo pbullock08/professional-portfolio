@@ -79,6 +79,7 @@ h2 {
     color: #532915;
 }
 
+/*styling for About Me section*/
 #about-me p {
     display: flex;
     flex-wrap: wrap;
@@ -87,41 +88,90 @@ h2 {
     color: #652a0e;
 }
 
-#professional-projects a {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.images {
+/*styling for Professional Projects section*/
+.large {
     display: flex;
     flex-wrap: wrap;
     padding-right: 150px;
-}
-
-images a {
-    
+    position: relative;
 }
 
 .large-image {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: auto;
+    height: 150px;
     object-fit: cover;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
+.large a {
+    display: contents;
+}
 
-.small-image {
+.image-title-left {
+    position: absolute;
+    top: 100px;
+    background-color: #532915;
+    color: darkgrey;
+    padding: 3px;
+    border-style: solid;
+    border-color: darkgrey;
+}
+
+.small {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    object-fit: cover;
-    padding-bottom: 15px;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 150px;
+    position: relative;
 }
 
+.small a {
+    display:contents;
+}
+
+.small-image {
+    width: 47%;
+    height: 150px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+.image-title-right {
+    position: absolute;
+    top: 100px;
+    right: 307px;
+    background-color: #532915;
+    color: darkgrey;
+    padding: 3px;
+    border-style: solid;
+    border-color: darkgrey;
+}
+
+.image-title-bottom-left {
+    position: absolute;
+    top: 260px;
+    background-color: #532915;
+    color: darkgrey;
+    padding: 3px;
+    border-style: solid;
+    border-color: darkgrey;
+}
+
+.image-title-bottom-right {
+    position: absolute;
+    top: 260px;
+    right: 275px;
+    background-color: #532915;
+    color: darkgrey;
+    padding: 3px;
+    border-style: solid;
+    border-color: darkgrey;
+}
+
+/*styling for Contact Me section*/
 #contact-me ul {
     display: flex;
     justify-content: space-between;
