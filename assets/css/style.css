@@ -54,6 +54,10 @@ nav li {
     text-align: right;
 }
 
+nav li:hover {
+    text-decoration: underline;
+}
+
 nav a {
     color: #532915;
     text-decoration: none;
@@ -103,6 +107,7 @@ h2 {
     height: 150px;
     object-fit: cover;
     padding-bottom: 10px;
+    opacity: .75;
 }
 
 .large a {
@@ -112,11 +117,11 @@ h2 {
 .image-title-left {
     position: absolute;
     top: 100px;
-    background-color: #532915;
-    color: darkgrey;
+    background-color: #652a0e;
+    color: #e8e6e7;
     padding: 3px;
     border-style: solid;
-    border-color: darkgrey;
+    border-color: #e8e6e7;
 }
 
 .small {
@@ -137,38 +142,43 @@ h2 {
     height: 150px;
     object-fit: cover;
     padding-bottom: 10px;
+    opacity: .75;
 }
 
 .image-title-right {
     position: absolute;
     top: 100px;
-    right: 307px;
-    background-color: #532915;
-    color: darkgrey;
+    right: 150px;
+    background-color: #652a0e;
+    color: #e8e6e7;
     padding: 3px;
     border-style: solid;
-    border-color: darkgrey;
+    border-color: #e8e6e7;
 }
 
 .image-title-bottom-left {
     position: absolute;
     top: 260px;
-    background-color: #532915;
-    color: darkgrey;
+    background-color: #652a0e;
+    color: #e8e6e7;
     padding: 3px;
     border-style: solid;
-    border-color: darkgrey;
+    border-color: #e8e6e7;
 }
 
 .image-title-bottom-right {
     position: absolute;
     top: 260px;
-    right: 275px;
-    background-color: #532915;
-    color: darkgrey;
+    right: 150px;
+    background-color: #652a0e;
+    color: #e8e6e7;
     padding: 3px;
     border-style: solid;
-    border-color: darkgrey;
+    border-color: #e8e6e7;
+}
+
+.large img:hover, .small img:hover {
+opacity: 1;
 }
 
 /*styling for Contact Me section*/
@@ -192,4 +202,18 @@ h2 {
 #contact-me a {
     padding: 0px;
     color: #532915;
+}
+
+#contact-me li:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*media queries*/
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 778px) {
+    
 }
