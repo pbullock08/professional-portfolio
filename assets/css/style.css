@@ -1,3 +1,11 @@
+/*defining root colors*/
+:root {
+    --brunette: #3b1e08;
+    --penny: #532915;
+    --cinnamon: #652a0e;
+    --tan:#e8e6e7;
+}
+
 /*styling for whole webpage*/
 * {
     font-family: 'Avenir', sans-serif;
@@ -30,7 +38,7 @@ header h1 {
     padding-left: 15px;
     margin: 0px;
     font-size: 2em;
-    color: #3b1e08;
+    color: var(--brunette);
 }
 
 header nav {
@@ -59,7 +67,7 @@ nav ul li:hover {
 }
 
 nav a {
-    color: #532915;
+    color: var(--penny);
     text-decoration: none;
     margin: 0px;
     padding-left: 20px;
@@ -80,7 +88,7 @@ main h2 {
     margin: 0px;
     width: 150px;
     text-align: right;
-    color: #532915;
+    color: var(--penny);
 }
 
 /*styling for About Me section*/
@@ -89,7 +97,7 @@ main h2 {
     flex-wrap: wrap;
     text-align: justify;
     padding-right: 150px;
-    color: #652a0e;
+    color: var(--cinnamon);
 }
 
 /*styling for Professional Projects section*/
@@ -138,43 +146,43 @@ main h2 {
 .image-title-left {
     position: absolute;
     top: 100px;
-    background-color: #652a0e;
-    color: #e8e6e7;
+    background-color: var(--cinnamon);
+    color: var(--tan);
     padding: 3px;
     border-style: solid;
-    border-color: #e8e6e7;
+    border-color: var(--tan);
 }
 
 .image-title-right {
     position: absolute;
     top: 100px;
     right: 150px;
-    background-color: #652a0e;
-    color: #e8e6e7;
+    background-color: var(--cinnamon);
+    color: var(--tan);
     padding: 3px;
     border-style: solid;
-    border-color: #e8e6e7;
+    border-color: var(--tan);
 }
 
 .image-title-bottom-left {
     position: absolute;
     top: 260px;
-    background-color: #652a0e;
-    color: #e8e6e7;
+    background-color: var(--cinnamon);
+    color: var(--tan);
     padding: 3px;
     border-style: solid;
-    border-color: #e8e6e7;
+    border-color: var(--tan);
 }
 
 .image-title-bottom-right {
     position: absolute;
     top: 260px;
     right: 150px;
-    background-color: #652a0e;
-    color: #e8e6e7;
+    background-color: var(--cinnamon);
+    color: var(--tan);
     padding: 3px;
     border-style: solid;
-    border-color: #e8e6e7;
+    border-color: var(--tan);
 }
 
 .large img:hover, .small img:hover {
@@ -194,7 +202,7 @@ opacity: 1;
 }
 
 #contact-me a {
-    color: #532915;
+    color: var(--penny);
 }
 
 
@@ -219,7 +227,7 @@ footer h3 {
     display: inline-block;
     vertical-align: middle;
     font-style: italic;
-    color: #3b1e08;
+    color: var(--brunette);
 }
 
 /*media queries for tablets*/
