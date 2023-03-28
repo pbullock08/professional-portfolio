@@ -191,23 +191,35 @@ opacity: 1;
     height: 33px;
     padding-right: 150px;
     padding-left: 0px;
-    text-decoration: underline;
-    color: #652a0e; 
-}
-
-#contact-me ul li {
-   margin: 0px;
-   color: #652a0e; 
 }
 
 #contact-me a {
-    padding: 0px;
     color: #532915;
+}
+
+
+#contact-me a:link {
+    text-decoration: none;
 }
 
 #contact-me li:hover {
     font-style: italic;
     font-weight: bold;
+}
+
+/*styling for the footer of the webpage*/
+footer {
+    height: 75px;
+    margin: 0px;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/ep_naturalwhite.png);
+    text-align: center;
+}
+
+footer h3 {
+    display: inline-block;
+    vertical-align: middle;
+    font-style: italic;
+    color: #3b1e08;
 }
 
 /*media queries for tablets*/
@@ -229,10 +241,15 @@ opacity: 1;
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    #professional-projects h2, #contact-me h2 {
+        padding-bottom: 16px;
+    }
    
     #contact-me ul {
         flex-direction: column;
         align-items: flex-start;
+        height: 100%;
     }
 
     #contact-me ul li {
