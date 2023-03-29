@@ -117,8 +117,9 @@ main h2 {
     position: relative;
 }
 
-.large a {
+.large a, .small a {
     display: contents;
+    position: relative;
 }
 
 .large .large-image {
@@ -127,25 +128,23 @@ main h2 {
     width: 100%;
     height: 150px;
     object-fit: cover;
-    padding-bottom: 10px;
+    border: 3px solid var(--brunette);
+    margin-bottom: 10px;
     opacity: .75;
-}
-
-.small a {
-    display:contents;
 }
 
 .small .small-image {
     width: 47%;
     height: 150px;
     object-fit: cover;
-    padding-bottom: 10px;
+    border: 3px solid var(--brunette);
+    margin-bottom: 10px;
     opacity: .75;
 }
 
 .image-title-left {
     position: absolute;
-    top: 100px;
+    top: 0px;
     background-color: var(--cinnamon);
     color: var(--tan);
     padding: 3px;
