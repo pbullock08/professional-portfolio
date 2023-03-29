@@ -144,7 +144,7 @@ main h2 {
 
 .image-title-left {
     position: absolute;
-    top: 0px;
+    top: 100px;
     background-color: var(--cinnamon);
     color: var(--tan);
     padding: 3px;
@@ -249,8 +249,23 @@ footer h3 {
         padding-bottom: 10px;
     }
 
+    main {
+        margin: 0px;
+    }
+
+    main h2 {
+        float: none;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        }
+
     #about-me p {
         padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
         margin-top: 10px;
         border-left: 0px;
         border-top: 3px solid var(--penny);
@@ -265,13 +280,29 @@ footer h3 {
 
     #professional-projects .large {
         padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+    }
+
+    #professional-projects .small{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+        }
+
+    .image-title-right, .image-title-bottom-right {
+        right: 50px;
     }
    
     #contact-me ul {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
         height: 100%;
         padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
         border-left: 0px;
     }
 
@@ -323,6 +354,11 @@ footer h3 {
         }
 
     #contact-me ul {
+        flex-direction: column;
         align-items: center;
         }
+
+    #contact-me li {
+        padding-bottom: 3px;
+    }
 }

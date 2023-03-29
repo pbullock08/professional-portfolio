@@ -22,4 +22,4 @@ Please refer to the license in the repo.
 
 ## Deployed Application w/ Screenshot
 [Deployed Application](https://pbullock08.github.io/professional-portfolio/)
-![image](./assets/images/)
+![image](./assets/images/readme%20screenshot.png)
