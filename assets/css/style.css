@@ -333,6 +333,11 @@ footer h3 {
         padding-bottom: 0px;
         }
 
+    #professional-projects .large {
+        display: flex;
+        justify-content: center;
+    }
+
     .image-title-right, .image-title-bottom-right {
         right: 0px;
         }
