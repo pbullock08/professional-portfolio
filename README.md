@@ -20,6 +20,6 @@ This webpage is designed with navigation links at the top, that when clicked, ta
 
 Please refer to the license in the repo.
 
-## Deployed Application w/ Screenshot
+## Deployed Application
 [Deployed Application](https://pbullock08.github.io/professional-portfolio/)
 ![image](./assets/images/readme-screenshot.png)
