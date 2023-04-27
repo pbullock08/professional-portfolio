@@ -3,7 +3,7 @@
     --brunette: #3b1e08;
     --penny: #532915;
     --cinnamon: #652a0e;
-    --tan:#e8e6e7;
+    --tan: #e8e6e7;
 }
 
 /*styling for whole webpage*/
@@ -108,7 +108,8 @@ main h2 {
     height: 480px;
 }
 
-#professional-projects .large, .small {
+#professional-projects .large,
+.small {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -117,7 +118,8 @@ main h2 {
     position: relative;
 }
 
-.large a, .small a {
+.large a,
+.small a {
     display: contents;
     position: relative;
 }
@@ -188,8 +190,9 @@ main h2 {
     border-right-color: var(--cinnamon);
 }
 
-.large img:hover, .small img:hover {
-opacity: 1;
+.large img:hover,
+.small img:hover {
+    opacity: 1;
 }
 
 /*styling for Contact Me section*/
@@ -235,17 +238,17 @@ footer h3 {
 
 /*media queries for tablets*/
 @media screen and (max-width: 992px) {
-   header h1 {
-    width: 50%;
-    vertical-align: middle;
-   }
+    header h1 {
+        width: 50%;
+        vertical-align: middle;
+    }
 
-   header nav {
-    display: inline-block;
-    width: 25%;
-    vertical-align: middle;
-    position: relative;
-   }
+    header nav {
+        display: inline-block;
+        width: 25%;
+        vertical-align: middle;
+        position: relative;
+    }
 
     nav ul li {
         padding-top: 10px;
@@ -262,7 +265,7 @@ footer h3 {
         text-align: center;
         width: 100%;
         justify-content: center;
-        }
+    }
 
     #about-me p {
         padding-top: 10px;
@@ -274,7 +277,8 @@ footer h3 {
         border-top: 3px solid var(--penny);
     }
 
-    #professional-projects h2, #contact-me h2 {
+    #professional-projects h2,
+    #contact-me h2 {
         padding-bottom: 10px;
         border-bottom: 3px solid var(--penny);
         border-right: 0px;
@@ -288,16 +292,17 @@ footer h3 {
         padding-bottom: 0px;
     }
 
-    #professional-projects .small{
+    #professional-projects .small {
         padding-left: 50px;
         padding-right: 50px;
         padding-bottom: 0px;
-        }
+    }
 
-    .image-title-right, .image-title-bottom-right {
+    .image-title-right,
+    .image-title-bottom-right {
         right: 50px;
     }
-   
+
     #contact-me ul {
         flex-direction: row;
         justify-content: space-between;
@@ -320,30 +325,34 @@ footer h3 {
         font-size: 1.8em;
         width: 25%;
         vertical-align: middle;
-       }
-    
+    }
+
     nav ul li {
         padding-top: 5px;
         padding-bottom: 5px;
-        }
+    }
 
-    #about-me p, #professional-projects .large, #professional-projects .small, #contact-me ul {
+    #about-me p,
+    #professional-projects .large,
+    #professional-projects .small,
+    #contact-me ul {
         padding-left: 0px;
         padding-right: 0px;
         padding-bottom: 0px;
-        }
+    }
 
     #professional-projects .large {
         display: flex;
         justify-content: center;
     }
 
-    .image-title-right, .image-title-bottom-right {
+    .image-title-right,
+    .image-title-bottom-right {
         right: 0px;
-        }
+    }
 
     #contact-me ul {
         flex-direction: column;
         align-items: center;
-        } 
+    }
 }
